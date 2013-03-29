@@ -27,7 +27,8 @@ LOCAL_SRC_FILES := 	\
 	framebuffer.cpp \
 	mapper.cpp
 	
-LOCAL_MODULE := gralloc.default
+LOCAL_MODULE_TAGS = optional
+LOCAL_MODULE := gralloc.zynq
 LOCAL_CFLAGS:= -DLOG_TAG=\"gralloc\"
 
 include $(BUILD_SHARED_LIBRARY)
