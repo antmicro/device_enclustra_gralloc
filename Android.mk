@@ -28,7 +28,7 @@ LOCAL_SRC_FILES := 	\
 	mapper.cpp
 	
 LOCAL_MODULE_TAGS = optional
-LOCAL_MODULE := gralloc.zynq
+LOCAL_MODULE := gralloc.enclustra
 LOCAL_CFLAGS:= -DLOG_TAG=\"gralloc\"
 
 include $(BUILD_SHARED_LIBRARY)
